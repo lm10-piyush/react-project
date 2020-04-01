@@ -10,7 +10,7 @@ export class Navigation extends Component {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav>
             {/* to the home page as login page */}
-            <NavLink className="d-inline p-2 bg-dark text-white" to="/">
+            <NavLink className="d-inline p-2 bg-dark text-white" to="#">
               CodeHunters
             </NavLink>
 
@@ -28,12 +28,12 @@ export class Navigation extends Component {
               className="d-inline p-2 bg-dark text-white"
               to="/problem/"
             ></NavLink>
-            <NavLink
+            {/* <NavLink
               className="d-inline p-2 bg-dark text-white"
               to="/contest/contestname"
             >
               Contest Problems
-            </NavLink>
+            </NavLink> */}
           </Nav>
         </Navbar.Collapse>
       </Navbar>

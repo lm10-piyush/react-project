@@ -3,8 +3,8 @@ import React, { Component } from "react";
 export class Home extends Component {
   render() {
     return (
-      <div className="mt-5 d-flex justify-content-left">
-        <h3>The is the home page</h3>
+      <div className="mx-auto p-3  justify-content-center shadow">
+        <h2>Welcome to CodeHunters</h2>
       </div>
     );
   }
